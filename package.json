@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "dev": "vite",
+        "watch": "mix watch"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.10.2",
+        "@vitejs/plugin-react": "^2.0.0",
+        "axios": "^0.27",
+        "bootstrap": "^5.1.3",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^0.6.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "vite": "^3.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.2.0",
+        "@fortawesome/free-regular-svg-icons": "^6.2.0",
+        "@fortawesome/free-solid-svg-icons": "^6.2.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "formik": "^2.2.9",
+        "npm-watch": "^0.11.0",
+        "react-scripts": "^5.0.1",
+        "watch": "^1.0.2"
+    },
+    "name": "case_study_xevos_daniel",
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+    "version": "1.0.0",
+    "main": "vite.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inovecz/case_study_xevos_Daniel.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/inovecz/case_study_xevos_Daniel/issues"
+    },
+    "homepage": "https://github.com/inovecz/case_study_xevos_Daniel#readme"
+}

@@ -1,0 +1,11 @@
+.fas, .fa-edit{
+    cursor: pointer;
+}
+
+.th-sort{
+    cursor: pointer;
+}
+
+.sort-arrow {
+    margin-left: 10px;
+}

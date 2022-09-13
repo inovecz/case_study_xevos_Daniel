@@ -101,8 +101,6 @@ class EmployeeController extends Controller
         }
 
         $employees = Employee::all();
-      
-        var_dump($employees);die;
 
         return response()->json([
             'status' => 200,

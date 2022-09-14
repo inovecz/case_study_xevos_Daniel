@@ -5,7 +5,7 @@ export let orderCol;
 export let order;
 
 export function getData(setData){
-    fetch(variables.apiUrl + 'getEmployees',{
+    fetch('api/getEmployees',{
         method:'GET',
         headers:{
             'Accept':'application/json',
@@ -36,7 +36,7 @@ export function getDataFromDb(setData, orderColumn){
 
     orderCol = orderColumn;
     refreshFunc = setData;
-    fetch(variables.apiUrl + 'getEmployeesFromDb',{
+    fetch('api/getEmployeesFromDb',{
         method:'POST',
         headers:{
             'Accept':'application/json',
@@ -56,7 +56,7 @@ export function getDataFromDb(setData, orderColumn){
 }
 
 export function updateData(data){
-    fetch(variables.apiUrl+ 'updateEmployee',{
+    fetch('api/updateEmployee',{
         method:'POST',
         headers:{
             'Accept':'application/json',
@@ -76,7 +76,7 @@ export function updateData(data){
 }
 
 export function deleteData(data){
-    fetch(variables.apiUrl+ 'deleteEmployee',{
+    fetch('api/deleteEmployee',{
         method:'DELETE',
         headers:{
             'Accept':'application/json',
@@ -96,7 +96,7 @@ export function deleteData(data){
 }
 
 export function compareData(setData){
-    fetch(variables.apiUrl+ 'compareEmployees',{
+    fetch('api/compareEmployees',{
         method:'GET',
         headers:{
             'Accept':'application/json',

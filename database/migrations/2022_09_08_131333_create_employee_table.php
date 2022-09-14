@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('employee', function (Blueprint $table) {
             $table->id();
-            $table->integer("employee_ID");
-            $table->string("name");
-            $table->string("surname");
-            $table->string("date");
+            $table->integer("employee_ID")->nullable();;
+            $table->string("name")->nullable();;
+            $table->string("surname")->nullable();;
+            $table->string("date")->nullable();;
             $table->timestamps();
         });
     }
